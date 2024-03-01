@@ -3,6 +3,8 @@ package semester2.PraktikPemLan;
 public class objSepatu {
     public static void main(String[] args) {
 
+    System.out.println("------------------------------------------- ");
+    
     clsSepatu sepatuA = new clsSepatu();
 
     sepatuA.setManufaktur("Nike");
@@ -11,8 +13,8 @@ public class objSepatu {
     sepatuA.setHarga(1800000);
 
     sepatuA.displayMessage();
-    System.out.println(" ");
-        
+    
+    System.out.println("------------------------------------------- ");
 
     clsSepatu sepatuB = new clsSepatu("Adidas","Hijau","42",2000000.0);
     sepatuB.displayMessage();
